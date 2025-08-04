@@ -28,6 +28,7 @@
 By default, `frame-char-width` will be used."
   :type 'int :group 'elastic-table)
 
+;;;###autoload
 (define-minor-mode elastic-table-mode
   "Mode for alignment of using tabs, with variable pitch fonts.
 When `elastic-table-mode' is enabled, tabstops in consecutive
