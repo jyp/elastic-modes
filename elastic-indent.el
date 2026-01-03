@@ -79,6 +79,7 @@ results will not be pretty."
 ;;   (setq elastic-indent-rest-faces '(elastic-indent-vertical-lines default))
 ;;   (setq elastic-indent-fst-col-faces '(elastic-indent-vertical-lines default)))
 
+;;;###autoload
 (define-minor-mode elastic-indent-mode
   "Improves indentation with in variable-pitch face.
 Adjust the width of indentation characters to align the indented
